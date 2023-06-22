@@ -1,0 +1,187 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.Background {
+    padding-bottom: 592px;
+    background-color:#000000de;
+    
+}
+
+.Ads__header {
+    background:url(https://sun9-77.userapi.com/impg/oNXi2DCUfw5DBgJ76bys1Ed7Cs-KWa5RKd8niw/bgwi7SgLSMY.jpg?size=1920x399&quality=95&sign=94439fc449521661a7b4e08263c09fe0&type=album);
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .Header__title {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    color:white;
+    padding-top: 50px;
+}
+
+.Box__information {
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    padding: auto;
+    font-family: 'Times New Roman Bold ', sans-serif;
+}
+
+.Header__button {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    padding: 35px 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 40px;
+    background-color: rgba(34, 63, 33, 0.548);
+    color: white;
+    transition: .35s;
+    
+}
+
+.Header__button:hover {
+    background-color: rgb(34, 88, 34);
+}
+
+.Ads__content {
+    font-family: 'Roboto', sans-serif;
+    padding: 24px;
+}
+
+.Content__box:hover {
+    background: #413f3f ;
+    box-shadow: 0 -200px 100px -120px #d3d3d3  inset; 
+}
+
+.Ads__title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 300%;
+    color: rgb(44, 63, 42);
+    background: linear-gradient( rgba(34, 63, 29, 0.808), white);
+    text-shadow: 0px 1px 6px rgba(241, 246, 250, 0.226);  
+}
+
+.Content__box {    
+    background:#413f3f;
+    box-shadow: 0 -200px 100px -100px #585757;
+    margin-bottom: 25px;
+    margin-right: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    color:#ffffff;
+    transition: 0.5s;
+}
+
+
+.Box__info {
+    line-height: 80px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.Box__name {
+    font-size: 18px ;
+    color: #000;
+    line-height: 80px;
+
+}
+
+.Box__date {
+    padding-bottom: 25px;
+    color: #000;
+}
+
+.Modal__window {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.Modal__mask {
+    background-color: rgba(0, 0, 0, 0.74);
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.Model__form {
+
+    padding: 24px;
+    border-radius: 12px;
+    background: rgb(27, 97, 248);
+    display: flex;
+    z-index: 2;
+}
+
+.Form__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.Form__content {}
+
+.Content__field {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 16px;
+}
+
+.Content__field label {
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.Content__field input {
+    display: block;
+    width: 227px;
+    padding: 12px 16px;
+}
+
+.Content__field textarea {
+    display: block;
+    width: 227px;
+    padding: 12px 16px;
+}
+
+.Content__field button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 0;
+    width: 100%;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="Background">
+        <div class="Ads__header">
+            <div class="Header__title">Антивирусы</div>
+            <div id="add" class="Header__button">Добавить отзыв</div>
+        </div>
+        <div class="Box__information"> Популярные антивирусные программы
+            Avast Antivirus — семейство антивирусных программ, разработанных компанией Avast для операционных систем Windows, Mac OS, Android и iOS. Включает в себя бесплатную и коммерческие версии продуктов, нацеленных на компьютерную безопасность и защиту от вредоносных, шпионских и троянских программ, а также остальных типов киберугроз, включая adware, червей и фишинг.
+
+Название Avast является сокращением от «AntiVirus Advanced SeT» («продвинутый антивирусный набор»); также на морском сленге это слово означает «стой!», «стоп!»[1][2]
+
+Был отмечен как один из самых популярных антивирусов[3], и в то же время неоднократно подвергался критике в СМИ из-за сбора и продажи пользовательских данных[4][5][6][7
+        </div>
+        <div class="Ads__title">Список отзывов</div>
+        <div id="content" class="Ads__content">
+            <!-- <div class="Content__box" id="box" >   
+                <div class="Box__info" id="info">Антивирусы 1</div>
+                <div class="Box__name" id="name">Название программы</div>
+                <div class="Box__date" id="date">Дата публикации</div>
+            </div> -->
+        
+            
+        </div>
+    </div>
+
+
+
+
+    <div id="modal" class="Modal__window" style="display: none;">
+        <div id="close" class="Modal__mask"></div>
+        <i></i>
+        <div class="Model__form">
+            <div class="Form__title">Добавить отзыв</div>
+            <div class="Form__content">
+                <div id="newinfo" class="Content__field">
+                    <label>Описание</label>
+                    <textarea name="text" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div id="newname" class="Content__field">
+                    <label>Название программы</label>
+                    <input name="name" type="text">
+                </div>
+                <div  class="Content__field">
+                    <label id="newdate">Дата публикации</label>
+                    <input name="date" type="date">
+                </div>
+                <div  class="Content__field">
+                    <button id="newblock">Добавить</button>
+                </div>
+            </div>
+        </div>
+        <i></i>
+    </div>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
